@@ -3,16 +3,22 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "newStorageAccountName": {
-      "value": "myStorageAccount"
+      "value": "prsstore1"
     },
     "adminUsername": {
       "value": "admin123"
     },
     "adminPassword": {
-      "value": "ADmin123_!"
+      "value": "Passw0rd!"
     },
     "dnsNameForPublicIP": {
-      "value": "myDnsName"
+      "value": "prs0206"
+    },
+    "location": {
+      "value": "Australia East"
+    },
+    "sizeOfDiskInGB": {
+      "value": "20"
     }
   }
 }
