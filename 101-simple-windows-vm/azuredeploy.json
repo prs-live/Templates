@@ -176,7 +176,7 @@
             },
             "caching": "ReadWrite",
             "createOption": "FromImage"
-          }
+          },
           "dataDisks": [
             {
               "name": "datadisk1",
