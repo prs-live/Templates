@@ -31,7 +31,7 @@
       "defaultValue": "Australia East",
       "allowedValues": [
         "Australia East",
-        "Australia Southeast",
+        "Australia Southeast"
       ],
       "metadata": {
         "description": "Restricts choices to where premium storage is located in AU."
@@ -73,7 +73,7 @@
     "virtualNetworkName": "MyVNET",
     "vnetID": "[resourceId('Microsoft.Network/virtualNetworks',variables('virtualNetworkName'))]",
     "subnetRef": "[concat(variables('vnetID'),'/subnets/',variables('subnetName'))]",
-    "dataDisk1VhdName": "[concat('http://',parameters('newStorageAccountName'),'.blob.core
+    "dataDisk1VhdName": "[concat('http://',parameters('newStorageAccountName'),'.blob.core.windows.net/',variables('vmStorageAccountContainerName'),'/',variables('vmName'),'dataDisk1.vhd')]"
   },
   "resources": [
     {
