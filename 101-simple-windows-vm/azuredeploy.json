@@ -32,11 +32,11 @@
       "allowedValues": [
         "Australia East",
         "Australia Southeast",
-      ]
+      ],
       "metadata": {
         "description": "Restricts choices to where premium storage is located in AU."
       }
-    }
+    },
     "windowsOSVersion": {
       "type": "string",
       "defaultValue": "2012-R2-Datacenter",
